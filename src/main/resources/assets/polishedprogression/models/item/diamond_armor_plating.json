@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "polishedprogression:item/diamond_armor_plating"
+  }
+}
