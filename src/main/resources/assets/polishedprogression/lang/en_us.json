@@ -2,8 +2,10 @@
   "item.polishedprogression.iron_armor_plating": "Iron Armor Plating",
   "item.polishedprogression.diamond_armor_plating": "Diamond Armor Plating",
 
-  "item.polishedprogression.iron_upgrade_smithing_template": "Iron Upgrade Smithing Template",
-  "item.polishedprogression.diamond_upgrade_smithing_template": "Diamond Upgrade Smithing Template",
+  "item.polishedprogression.iron_upgrade_smithing_template": "Smithing Template",
+  "item.polishedprogression.iron_upgrade_smithing_template.desc": "Iron Upgrade",
+  "item.polishedprogression.diamond_upgrade_smithing_template": "Smithing Template",
+  "item.polishedprogression.diamond_upgrade_smithing_template.desc": "Diamond Upgrade",
 
   "item.polishedprogression.flint_dagger": "Flint Dagger",
   "item.polishedprogression.flint_hatchet": "Flint Hatchet",

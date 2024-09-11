@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#X",
+    " X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "polishedprogression:flint_hatchet"
+  }
+}
