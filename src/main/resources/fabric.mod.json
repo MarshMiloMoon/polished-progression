@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "polishedprogression",
+	"version": "${version}",
+	"name": "Polished Progression",
+	"description": "This mod changes the progression of the early to mid game. It aims to give the player more motive to explore and take more time in between tool and armor tiers.",
+	"authors": [
+		"MarshMiloMoon"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/MarshMiloMoon",
+		"sources": "https://github.com/MarshMiloMoon/polished-progression"
+	},
+	"license": "MIT",
+	"icon": "assets/polishedprogression/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.starglobe.polishedprogression.PolishedProgression"
+		],
+		"fabric-datagen": [
+			"net.starglobe.polishedprogression.PolishedProgressionDataGenerator"
+		],
+		"client": [
+			"net.starglobe.polishedprogression.PolishedProgressionClient"
+		]
+	},
+	"mixins": [
+		"polishedprogression.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
