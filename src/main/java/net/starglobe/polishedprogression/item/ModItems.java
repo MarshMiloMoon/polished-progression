@@ -17,7 +17,8 @@ public class ModItems {
             new Item(new Item.Settings()));
 
     public static final Item FLINT_DAGGER = registerItem("flint_dagger",
-            new SwordItem(ToolMaterials.WOOD, new Item.Settings()));
+            new SwordItem(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
+                    ToolMaterials.WOOD, 3, 4996))));
     public static final Item FLINT_HATCHET = registerItem("flint_hatchet",
             new AxeItem(ToolMaterials.WOOD, new Item.Settings()));
     public static final Item FLINT_TROWEL = registerItem("flint_trowel",
