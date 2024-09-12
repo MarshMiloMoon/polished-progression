@@ -21,9 +21,11 @@ public class ModItems {
             new SwordItem(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
                     ToolMaterials.WOOD, 3, 4996))));
     public static final Item FLINT_HATCHET = registerItem("flint_hatchet",
-            new AxeItem(ToolMaterials.WOOD, new Item.Settings()));
+            new AxeItem(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(
+                    ToolMaterials.WOOD, 6.0F, -3.2F))));
     public static final Item FLINT_TROWEL = registerItem("flint_trowel",
-            new ShovelItem(ToolMaterials.WOOD, new Item.Settings()));
+            new ShovelItem(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(
+                    ToolMaterials.WOOD, 1.5F, -3.0F))));
 
     public static final Item STONE_CLUB = registerItem("stone_club",
             new AxeItem(ToolMaterials.STONE, new Item.Settings()));
