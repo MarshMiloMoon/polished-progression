@@ -3,9 +3,19 @@
   "item.polishedprogression.diamond_armor_plating": "Diamond Armor Plating",
 
   "item.polishedprogression.iron_upgrade_smithing_template": "Smithing Template",
-  "item.polishedprogression.iron_upgrade_smithing_template.desc": "Iron Upgrade",
   "item.polishedprogression.diamond_upgrade_smithing_template": "Smithing Template",
-  "item.polishedprogression.diamond_upgrade_smithing_template.desc": "Diamond Upgrade",
+
+  "item.polishedprogression.smithing_template.iron_upgrade.title": "Iron Upgrade",
+  "item.polishedprogression.smithing_template.iron_upgrade.additions_slot_description": "Add Iron Armor Plating",
+  "item.polishedprogression.smithing_template.iron_upgrade.applies_to": "Leather Armor",
+  "item.polishedprogression.smithing_template.iron_upgrade.base_slot_description": "Add leather armor",
+  "item.polishedprogression.smithing_template.iron_upgrade.ingredients": "Iron Armor Plating",
+
+  "item.polishedprogression.smithing_template.diamond_upgrade.title": "Diamond Upgrade",
+  "item.polishedprogression.smithing_template.diamond_upgrade.additions_slot_description": "Add Diamond Armor Plating or Diamond",
+  "item.polishedprogression.smithing_template.diamond_upgrade.applies_to": "Iron Equipment",
+  "item.polishedprogression.smithing_template.diamond_upgrade.base_slot_description": "Add iron armor, weapon, or tool",
+  "item.polishedprogression.smithing_template.diamond_upgrade.ingredients": "Diamond Armor Plating, Diamond",
 
   "item.polishedprogression.flint_dagger": "Flint Dagger",
   "item.polishedprogression.flint_hatchet": "Flint Hatchet",

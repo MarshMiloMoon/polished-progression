@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.starglobe.polishedprogression.PolishedProgression;
 
@@ -12,9 +13,9 @@ public class ModItems {
     public static final Item DIAMOND_ARMOR_PLATING = registerItem("diamond_armor_plating", new Item(new Item.Settings()));
 
     public static final Item IRON_UPGRADE_SMITHING_TEMPLATE = registerItem("iron_upgrade_smithing_template",
-            new Item(new Item.Settings()));
+            ModSmithingTemplateItem.createIronUpgrade());
     public static final Item DIAMOND_UPGRADE_SMITHING_TEMPLATE = registerItem("diamond_upgrade_smithing_template",
-            new Item(new Item.Settings()));
+            ModSmithingTemplateItem.createDiamondUpgrade());
 
     public static final Item FLINT_DAGGER = registerItem("flint_dagger",
             new SwordItem(ToolMaterials.WOOD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
