@@ -1,11 +1,14 @@
 package net.starglobe.polishedprogression.item;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.SmithingTemplateItem;
 import net.minecraft.resource.featuretoggle.FeatureFlag;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
+import net.starglobe.polishedprogression.PolishedProgression;
 
 import java.util.List;
 
@@ -121,5 +124,9 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
                 EMPTY_SLOT_DIAMOND_TEXTURE,
                 EMPTY_SLOT_ARMOR_PLATING_TEXTURE
         );
+    }
+
+    public static void registerModSmithingTemplateItems() {
+        PolishedProgression.LOGGER.info("Registering Mod Smithing Template Items for " + PolishedProgression.MOD_ID);
     }
 }

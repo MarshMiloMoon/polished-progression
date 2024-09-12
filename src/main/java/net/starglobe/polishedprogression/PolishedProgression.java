@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.starglobe.polishedprogression.block.ModBlocks;
 import net.starglobe.polishedprogression.item.ModItems;
+import net.starglobe.polishedprogression.item.ModSmithingTemplateItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public class PolishedProgression implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModSmithingTemplateItem.registerModSmithingTemplateItems();
 	}
 }
