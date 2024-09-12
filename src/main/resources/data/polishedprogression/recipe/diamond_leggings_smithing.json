@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "polishedprogression:diamond_armor_plating"
+  },
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_leggings"
+  },
+  "template": {
+    "item": "polishedprogression:diamond_upgrade_smithing_template"
+  }
+}
