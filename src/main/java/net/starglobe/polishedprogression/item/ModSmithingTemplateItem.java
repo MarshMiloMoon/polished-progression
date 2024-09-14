@@ -121,8 +121,15 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
 
     private static List<Identifier> getDiamondUpgradeEmptyAdditionsSlotTextures() {
         return List.of(
+                EMPTY_SLOT_ARMOR_PLATING_TEXTURE,
                 EMPTY_SLOT_DIAMOND_TEXTURE,
-                EMPTY_SLOT_ARMOR_PLATING_TEXTURE
+                EMPTY_SLOT_ARMOR_PLATING_TEXTURE,
+                EMPTY_SLOT_DIAMOND_TEXTURE,
+                EMPTY_SLOT_ARMOR_PLATING_TEXTURE,
+                EMPTY_SLOT_DIAMOND_TEXTURE,
+                EMPTY_SLOT_ARMOR_PLATING_TEXTURE,
+                EMPTY_SLOT_DIAMOND_TEXTURE,
+                EMPTY_SLOT_DIAMOND_TEXTURE
         );
     }
 
