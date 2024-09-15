@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "polishedprogression:iron_plating_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "polishedprogression:iron_armor_plating"
+  }
+}

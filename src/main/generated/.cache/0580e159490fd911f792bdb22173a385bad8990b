@@ -1,0 +1,4 @@
+// 1.21.1	2024-09-14T16:54:35.0783229	Polished Progression/Tags for minecraft:block
+d7cf585846233ed7bb60cbee32b607d2aa91d989 data\minecraft\tags\block\needs_iron_tool.json
+9c37c48f131178ca4708d3231ad2999f28d237bc data\minecraft\tags\block\needs_stone_tool.json
+dfb97d89efe2b6403e2e0f38c8a195360ea1b53c data\minecraft\tags\block\mineable\pickaxe.json
